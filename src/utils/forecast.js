@@ -29,8 +29,8 @@ const forecast= (geoCode, callback)=>{ //18.975,72.826
                 // const precip= weatherInfo.current.precip;
                 // const weatherDesc= weatherInfo.current.weather_descriptions;
             
-            console.log(weatherDesc + '. Current temperature in '+city +' is '+temperature+' degrees, feels like '+feelsLike+' degrees , and humidity is '+humidity+', chances of rain are '+precip+' percent');
-            const weatherbrief =  weatherDesc + '. Current temperature in '+city +' is '+temperature+' degrees, feels like '+feelsLike+' degrees , and humidity is '+humidity+', chances of rain are '+precip+' percent';       
+            console.log(weatherDesc + '. Current temperature in '+city +' city is '+temperature+' degrees, feels like '+feelsLike+' degrees , and humidity is '+humidity+', chances of rain are '+precip+' percent');
+            const weatherbrief =  weatherDesc + '. Current temperature in '+city +' is '+temperature+' degrees, feels like '+feelsLike+' degrees , and humidity is '+humidity+', chances of rain are '+precip+' percent, Have a good day';       
              const weatherDetails ={
                      city,
                     temp: temperature,
